@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-[rgb(253,251,247)] text-stone-900 font-sans;
+}
+
+.font-devanagari {
+  font-family: "Noto Sans Devanagari", "Hind", sans-serif;
+  font-feature-settings: "kern" 1;
+  text-rendering: optimizeLegibility;
+}
+
+/* High contrast mode support */
+.high-contrast .tithi-dot {
+  border: 2px solid rgb(28 25 23);
+}
+
+.high-contrast .date-cell {
+  border: 1px solid rgb(28 25 23);
+}
+
+/* Mobile bottom sheet animation */
+@keyframes slide-up {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animate-slide-up {
+  animation: slide-up 0.3s ease-out;
+}
+
