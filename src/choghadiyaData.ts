@@ -149,11 +149,11 @@ export const DAY_PATTERNS: Record<Weekday, ChoghadiyaPattern> = {
     "CHANCHAL",
     "LABH",
     "AMRIT",
-    "ROG",
-    "SHUBH",
-    "CHANCHAL",
     "KAAL",
-    "UDVEG"
+    "SHUBH",
+    "ROG",
+    "UDVEG",
+    "CHANCHAL"
   ],
   SATURDAY: [
     "KAAL",
@@ -170,9 +170,9 @@ export const DAY_PATTERNS: Record<Weekday, ChoghadiyaPattern> = {
     "CHANCHAL",
     "LABH",
     "AMRIT",
-    "ROG",
-    "SHUBH",
     "KAAL",
+    "SHUBH",
+    "ROG",
     "UDVEG"
   ]
 };
@@ -204,8 +204,8 @@ export const NIGHT_PATTERNS: Record<Weekday, ChoghadiyaPattern> = {
     "AMRIT",
     "CHANCHAL",
     "ROG",
-    "LABH",
     "KAAL",
+    "LABH",
     "UDVEG"
   ],
   THURSDAY: [
@@ -213,16 +213,16 @@ export const NIGHT_PATTERNS: Record<Weekday, ChoghadiyaPattern> = {
     "CHANCHAL",
     "ROG",
     "KAAL",
-    "UDVEG",
     "LABH",
+    "UDVEG",
     "SHUBH",
     "AMRIT"
   ],
   FRIDAY: [
     "ROG",
     "KAAL",
-    "UDVEG",
     "LABH",
+    "UDVEG",
     "SHUBH",
     "AMRIT",
     "CHANCHAL",
@@ -230,22 +230,22 @@ export const NIGHT_PATTERNS: Record<Weekday, ChoghadiyaPattern> = {
   ],
   SATURDAY: [
     "LABH",
+    "UDVEG",
     "SHUBH",
-    "CHANCHAL",
     "AMRIT",
+    "CHANCHAL",
     "ROG",
     "KAAL",
-    "UDVEG",
     "LABH"
   ],
   SUNDAY: [
     "SHUBH",
     "AMRIT",
-    "ROG",
-    "UDVEG",
     "CHANCHAL",
+    "ROG",
     "KAAL",
     "LABH",
+    "UDVEG",
     "SHUBH"
   ]
 };
